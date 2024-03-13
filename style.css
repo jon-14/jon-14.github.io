@@ -1,0 +1,41 @@
+body {
+    background-color:#F3EED9;
+}
+
+h1, h2 {
+    color:#7A0821;
+    padding: 5px;
+}
+
+.contactInfo {
+    position:relative;
+    top:0;
+    left:0;
+    margin: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar > * {
+    background-color:#7A0821;
+    padding: 10px;
+    width:10%;
+    text-align: center;
+    color:#F3EED9
+}
+
+th, td, li {
+    padding: 15px;
+}
+
+
+img {
+    max-width: 40%;
+    display:inline;
+    float:top;
+    margin: 10px;
+    border-radius: 10%;
+}
